@@ -1,0 +1,69 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+}
+
+body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+
+}
+
+h1 {
+
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   position: absolute;
+   font-size: 250%;
+   top: 8%;
+
+}
+
+h3 {
+   font-family: 'Courier New', Courier, monospace;
+   position: absolute;
+   top: 16%;
+
+}
+
+.background {
+   height: 100%;
+   width: 100%;
+
+}
+
+
+
+.espaço {
+   position: absolute;
+   background-color: rgb(255, 255, 255);
+   border: 1px solid black;
+   height: 60%;
+   width: 60%;
+   overflow: hidden;
+
+}
+
+.personagem {
+   margin-bottom: -19px;
+   position: absolute;
+   position: absolute;
+   bottom: 0;
+   height: 50%;
+   animation: move 8s infinite linear;
+
+}
+
+
+@keyframes move {
+
+   from {
+      left: -400px;
+   }
+
+   to {
+
+      left: 900px;
+   }
+}
